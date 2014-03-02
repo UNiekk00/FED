@@ -23,27 +23,27 @@
       <ul>
         <li>
           <label for="naam">Naam:</label>
-          <input type="text" id="naam" placeholder="Voor- en achternaam" required />
+          <input type="text" id="naam" placeholder="Voor- en achternaam" required/>
         </li>
         <li>
           <label for="bedrijf">Bedrijf:</label>
-          <input type="text" id="bedrijf" placeholder="Bedrijfsnaam" required />
+          <input type="text" id="bedrijf" placeholder="Bedrijfsnaam" required/>
         </li>
         <li>
           <label for="adres">Adres:</label>
-          <input type="text" id="adres" placeholder="Straatnaam 86" required />
+          <input type="text" id="adres" placeholder="Straatnaam 86" required/>
         </li>
         <li>
           <label for="postcode">Postcode:</label>
-          <input type="text" id="postcode" placeholder="1234AB" pattern="[1-9][0-9]{3}\s?[a-zA-Z]{2}" required />
+          <input type="text" id="postcode" placeholder="0000AA" pattern="[1-9][0-9]{3}\s?[a-zA-Z]{2}" required/>
         </li>
         <li>
           <label for="plaats">Plaats:</label>
-          <input type="text" id="plaats" placeholder="Plaatsnaam" required />
+          <input type="text" id="plaats" placeholder="Woonplaats" required />
         </li>
         <li>
           <label for="tel">Telefoon:</label>
-          <input type="tel" id="tel" placeholder="1234-564789" required />
+          <input type="tel" id="tel" placeholder="0228-123456" required />
         </li>
         <li>
           <label for="email">E-mail:</label>
@@ -83,11 +83,11 @@
         </li>
         <li>
           <label>Doelgroepomschrijving</label>
-          <textarea placeholder="Beschrijf uw doelgroepsomschrijving." required></textarea>
+          <textarea placeholder="Beschrijf de doelgroep." required></textarea>
         </li>
         <li>
           <label>Doelstelling/ intentie van het project:</label>
-          <textarea placeholder="Beschrijf uw doelstelling." required></textarea>
+          <textarea placeholder="Beschrijf je doelstelling." required></textarea>
         </li>
         <li>
           <label for="month">Looptijd:</label>
@@ -184,7 +184,7 @@
         <ol>
           <li>
             <label>Beschrijving stagewerkzaamheden:</label>
-            <textarea placeholder="Beschrijg uw stagewerkzaamheden" required></textarea>
+            <textarea placeholder="Beschrijf de stagewerkzaamheden" required></textarea>
           </li>
         </ol>
     </fieldset>
@@ -198,19 +198,19 @@
           </li>
         <li>
             <label for="adres">Adres:</label>
-            <input type="text" id="s-adres" placeholder="Wibautstraat" required />
+            <input type="text" id="s-adres" placeholder="Kalverstraat" required />
         </li>
         <li>
             <label for="postcode">Postcode:</label>
-            <input type="text" id="s-postcode" placeholder="1122AB" pattern="[1-9][0-9]{3}\s?[a-zA-Z]{2}" required />
+            <input type="text" id="s-postcode" placeholder="1693BS" pattern="[1-9][0-9]{3}\s?[a-zA-Z]{2}" required />
         </li>
         <li>
             <label for="plaats">Plaats:</label>
-            <input type="text" id="s-plaats" placeholder="Amsterdam" required />
+            <input type="text" id="s-plaats" placeholder="Wervershoof" required />
         </li>
         <li>
             <label for="sector">Sector:</label>
-            <input type="text" id="sector" placeholder="Techniek" required />
+            <input type="text" id="sector" placeholder="ICT" required />
         </li>
           <li>
             <label>Core Business:</label>
@@ -225,7 +225,7 @@
             <textarea placeholder="Laat hier uw opmerking achter."></textarea>
     </fieldset>
    </fieldset>
-    <input type="submit" />
+            <input type="submit" />
   </form>
  </body>
 </html>
