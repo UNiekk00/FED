@@ -1,0 +1,270 @@
+html {
+		margin: 0;
+		padding: 0;
+		}
+
+	body{
+		margin: 1em auto;
+		width: 90%;
+		background: #eae8e8;
+	}
+
+	h1 { 
+		font: 160% helvetica;
+		color: #FFFFFF;
+		text-shadow: 0 0 .1em grey;
+		padding: 0 1.5em 0 1.1em;
+		}
+
+	h2{
+		font: 130% helvetica;
+		color:#FFFFFF;
+		padding: 0 1.5em 0 1.5em;
+	}
+
+	
+	h2:last-of-type{
+	 	font: 100% helvetica;
+		color: #FFFFFF;
+		text-shadow: 0 0 .1em grey;
+	}
+
+	h3{
+		font-family: helvetica;
+		font-size: 0.9em;
+		color: #FFFFFF;
+		padding: 0 2em 0 2em;
+	}
+
+	img + p + p + p{
+		font-style: italic;
+	}
+
+	p{
+		padding: 0 2em 0 2em;
+		font: 90% helvetica;
+		color: #FFFFFF;
+		letter-spacing: 0.07em;
+		line-height: 150%;
+	}
+
+	p > a{
+		color: blue;
+	}
+	
+	header > img{
+		padding: 0 2em 0 2em;
+		width: 100%;
+	}
+
+	/* nav */
+
+	nav{
+		margin-left: 2.7em;
+	}
+	nav ul ul {
+		display: none;
+		background: #5f6975; 
+		border-radius: 0em; 
+		padding: 0;
+		position: absolute; 
+		top: 100%;
+		visibility: hidden;
+	  	-webkit-transiton: opacity 0.5s;
+	  	-moz-transition: opacity 0.5s;
+	  	-ms-transition: opacity 0.5s;
+	  	-o-transition: opacity 0.5s;
+	  	-transition: opacity 0.5s;
+	}
+
+	nav ul li:hover > ul,
+	nav ul li:focus > ul {
+		display: block;
+		opacity: 1;
+	  	visibility: visible;
+	}
+
+	nav ul {
+		background: #333333; 
+		padding: 0 1em;
+		border-radius: 1em;  
+		list-style: none;
+		position: relative;
+		display: inline-block;
+	}
+
+	nav ul li {
+		float: left;
+		-webkit-transition: all 0.5s;
+		 -moz-transition: all 0.5s;
+		 -ms-transition: all 0.5s;
+		 -o-transition: all 0.5s;
+		 transition: all 0.5s;
+	}
+	nav ul li:hover {
+		background: #555555;
+	}
+	nav ul li:hover a {
+		color: #ffffff;
+	}
+	
+	nav ul li a {
+		font: 90% helvetica;
+		display: block; 
+		padding: 1.7em 2em;
+		color: #ffffff; 
+		text-decoration: none;
+	}
+
+	nav ul ul li {
+		float: none; 
+		border-top: 0.1em solid #6b727c;
+		border-bottom: 0.1em solid #575f6a;
+		position: relative;
+	}
+	nav ul ul li a {
+		cursor:pointer;
+		padding: 1em 2em;
+	}	
+	nav ul ul li a:hover {
+		background: #292F41;
+	}
+
+	article{
+		float: left;
+		width: 56%;
+		margin-left: 3.5%;
+		background: #2e2e2e;
+		padding: 1%;
+		border-radius:1em;
+	}
+	article > ul{
+		padding: 0 2em 0 2em;
+		font: 110% helvetica;
+		color: #FFFFFF;
+		letter-spacing: 0.07em;
+		line-height: 150%;
+		list-style: none;
+	}
+
+	article > ul > li:nth-child(2n+2){
+		color:red;
+	}
+
+	video{
+		padding: 0 2em 0 2em;
+		width: 90%;
+	}
+
+	img{
+		padding: 0 2em 0 2em;
+		width: 60%;
+	}
+
+	.no-textshadow{
+		border:0.053em solid;
+	
+	}
+	 
+	aside{
+		float: right;
+		margin-right: 10%;
+		width: 23%;
+		background: #2e2e2e;
+		padding: 1%;
+		border-radius:1em
+	}
+	aside > h1 > a{
+		color: #FFFFFF;
+	}
+
+	footer{
+		float:left;	
+		padding: 2%;
+		background-color: #777777;
+  		margin-left: 3.2%;
+  		margin-right: 9%;
+  		-webkit-border-radius: 1.2em;
+  		-moz-border-radius: 1.2em;
+  		border-radius: 1.2em;
+	}
+
+	footer > ul {
+	    float: left; 
+	    width: 25%
+	}    
+
+
+	@media only screen and (max-width:64em) {
+
+
+	
+	p{
+		font-size: 80%;
+	}
+
+	
+	article{
+		width: 63%;
+	}
+
+	aside{
+		width: 28%;
+		margin-right: 1%;
+	}
+
+	footer{
+		float: left;
+		font-size: 0.9em;
+	}
+	}
+
+
+	@media only screen and (max-width:40em) {
+		
+		
+	nav ul {
+		width:30%;
+		padding-right:66%;
+	}
+
+	
+	h1{
+		font-size: 1em;
+	}
+
+	h2{
+		font-size: 0.8em;
+	}
+
+	h3{
+		font-size: 0.7em;
+	}
+
+
+	article{
+		margin-left: 2.7em;
+		top: 15em;
+		width: 90%;
+	}
+
+	aside{
+		width: 90%;
+		}
+
+	footer{
+		margin-left: 2.7em;
+		width: 88%;
+		top: 210em;
+	}
+
+	footer > ul {
+	    width: 20%; 
+	    float: none; 
+	} 
+	article > ul{
+		font-size: 80%;
+		
+	}
+	
+	}
